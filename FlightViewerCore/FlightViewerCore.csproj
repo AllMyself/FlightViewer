@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8BC4678C-EA34-4247-9AAE-470B57AB8D2D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BinHong.FlightViewerCore</RootNamespace>
+    <AssemblyName>FlightViewerCore</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;Test</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\bin\Release\</OutputPath>
+    <DefineConstants>TRACE;text1</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AuthorizationKey, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>RefDll\AuthorizationKey.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App.cs" />
+    <Compile Include="DataLoader\DataLoader.cs" />
+    <Compile Include="Driver\AbstractDeviceDriver.cs" />
+    <Compile Include="Driver\Channel1553Driver.cs" />
+    <Compile Include="Driver\Channel429Driver.cs" />
+    <Compile Include="Driver\Device1553Driver.cs" />
+    <Compile Include="Driver\Deivce429Driver.cs" />
+    <Compile Include="Driver\NativeDef\1553\Native1553Param.cs" />
+    <Compile Include="Driver\NativeDef\1553\NativeMethods1553.cs" />
+    <Compile Include="Driver\NativeDef\429\Native429Param.cs" />
+    <Compile Include="Driver\NativeDef\429\NativeMethods429.cs" />
+    <Compile Include="Driver\NativeDef\NativeDll.cs" />
+    <Compile Include="FlightBus\AbstractDef\AbstractBus.cs" />
+    <Compile Include="FlightBus\AbstractDef\AbstractChannel.cs" />
+    <Compile Include="FlightBus\AbstractDef\AbstractComponent.cs" />
+    <Compile Include="FlightBus\AbstractDef\AbstractLabel.cs" />
+    <Compile Include="FlightBus\AssistEntities\ChildComponents.cs" />
+    <Compile Include="FlightBus\AbstractDef\AbstractDevice.cs" />
+    <Compile Include="FlightBus\AssistEntities\CtsThread.cs" />
+    <Compile Include="FlightBus\AssistEntities\IDCreator.cs" />
+    <Compile Include="FlightBus\AssistEntities\Parameter1553.cs" />
+    <Compile Include="FlightBus\AssistEntities\Parameter429.cs" />
+    <Compile Include="FlightBus\AssistEntities\ProperDeviceID.cs" />
+    <Compile Include="FlightBus\Bus429\Label429.cs" />
+    <Compile Include="FlightBus\Bus429\Modules\ReceiveModule.cs" />
+    <Compile Include="FlightBus\Bus429\Modules\SummaryModule.cs" />
+    <Compile Include="FlightBus\Bus429\Modules\DataProcessModule.cs" />
+    <Compile Include="FlightBus\Bus429\Modules\FilterModule.cs" />
+    <Compile Include="FlightBus\Bus429\Modules\SendModule.cs" />
+    <Compile Include="FlightBus\Bus1553\Bus1553.cs" />
+    <Compile Include="FlightBus\Bus1553\Channel1553.cs" />
+    <Compile Include="FlightBus\Bus1553\Device1553.cs" />
+    <Compile Include="FlightBus\Bus429\Bus429.cs" />
+    <Compile Include="FlightBus\Bus429\Channel429.cs" />
+    <Compile Include="FlightBus\Bus429\Device429.cs" />
+    <Compile Include="FlightBus\DeviceInfo.cs" />
+    <Compile Include="FlightBus\FlightBusManager.cs" />
+    <Compile Include="FlightBus\StaticMethods.cs" />
+    <Compile Include="Interface\IBusManager.cs" />
+    <Compile Include="Interface\ILabelInfo.cs" />
+    <Compile Include="Interface\IChannel.cs" />
+    <Compile Include="Interface\IDriver.cs" />
+    <Compile Include="Interface\IOperation.cs" />
+    <Compile Include="Interface\IComponent.cs" />
+    <Compile Include="Interface\IDeviceInfo.cs" />
+    <Compile Include="Interface\ILogin.cs" />
+    <Compile Include="Interface\IParameter.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UtilityComponents\Authorization\Authorization.cs" />
+    <Compile Include="UtilityComponents\BoardSimulator\BoardSimulator.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DeviceData\" />
+    <Folder Include="Driver\DeviceDetect\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Utilities\Utilities.csproj">
+      <Project>{11bc2c32-d925-401c-a6da-688ba8836fc4}</Project>
+      <Name>Utilities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Config\LangConfig\CNG.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Config\LangConfig\ENG.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Driver\NativeDef\1553\NativeHeaderFile\bht_L0.h" />
+    <Content Include="Driver\NativeDef\1553\NativeHeaderFile\bht_L1.h" />
+    <Content Include="Driver\NativeDef\1553\NativeHeaderFile\bht_L2.txt" />
+    <Content Include="Driver\NativeDef\429\NativeHeaderFile\bht_L0.h" />
+    <Content Include="Driver\NativeDef\429\NativeHeaderFile\bht_L1.h" />
+    <Content Include="Driver\NativeDef\429\NativeHeaderFile\bht_L1_a429_period.c" />
+    <Content Include="Driver\NativeDef\429\NativeHeaderFile\bht_L1_a429_test.c" />
+    <Content Include="Driver\NativeDef\429\NativeHeaderFile\bht_L2.txt" />
+    <Content Include="RefDll\A429WinDrv.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RefDll\CTest.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RefDll\AuthorizationKey.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Config\Common.cfg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Config\fv.license">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Config\LangConfig\Language.cfg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Config\SimulateData.bin">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Config\Version.cfg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 和 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

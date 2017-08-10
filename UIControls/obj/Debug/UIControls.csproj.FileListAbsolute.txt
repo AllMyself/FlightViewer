@@ -1,0 +1,36 @@
+C:\Users\BH-tech\Desktop\我的工作空间git - 副本\UIControls\bin\Debug\UiControls.dll
+C:\Users\BH-tech\Desktop\我的工作空间git - 副本\UIControls\bin\Debug\UiControls.pdb
+C:\Users\BH-tech\Desktop\我的工作空间git - 副本\UIControls\obj\Debug\UIControls.csprojResolveAssemblyReference.cache
+C:\Users\BH-tech\Desktop\我的工作空间git - 副本\UIControls\obj\Debug\UiControls.Properties.Resources.resources
+C:\Users\BH-tech\Desktop\我的工作空间git - 副本\UIControls\obj\Debug\UIControls.csproj.GenerateResource.Cache
+C:\Users\BH-tech\Desktop\我的工作空间git - 副本\UIControls\obj\Debug\UiControls.dll
+C:\Users\BH-tech\Desktop\我的工作空间git - 副本\UIControls\obj\Debug\UiControls.pdb
+C:\Users\BH-tech\Desktop\我的工作空间svn\UIControls\bin\Debug\UiControls.dll
+C:\Users\BH-tech\Desktop\我的工作空间svn\UIControls\bin\Debug\UiControls.pdb
+C:\Users\BH-tech\Desktop\我的工作空间svn\UIControls\obj\Debug\UIControls.csprojResolveAssemblyReference.cache
+C:\Users\BH-tech\Desktop\我的工作空间svn\UIControls\obj\Debug\UiControls.Properties.Resources.resources
+C:\Users\BH-tech\Desktop\我的工作空间svn\UIControls\obj\Debug\UIControls.csproj.GenerateResource.Cache
+C:\Users\BH-tech\Desktop\我的工作空间svn\UIControls\obj\Debug\UiControls.dll
+C:\Users\BH-tech\Desktop\我的工作空间svn\UIControls\obj\Debug\UiControls.pdb
+D:\mayu\mayuzx.FlightViewer\UIControls\bin\Debug\UiControls.dll
+D:\mayu\mayuzx.FlightViewer\UIControls\bin\Debug\UiControls.pdb
+D:\mayu\mayuzx.FlightViewer\UIControls\obj\Debug\ResolveAssemblyReference.cache
+D:\mayu\mayuzx.FlightViewer\UIControls\obj\Debug\UiControls.Properties.Resources.resources
+D:\mayu\mayuzx.FlightViewer\UIControls\obj\Debug\GenerateResource.read.1.tlog
+D:\mayu\mayuzx.FlightViewer\UIControls\obj\Debug\GenerateResource.write.1.tlog
+D:\mayu\mayuzx.FlightViewer\UIControls\obj\Debug\UiControls.dll
+D:\mayu\mayuzx.FlightViewer\UIControls\obj\Debug\UiControls.pdb
+D:\mayu\新版本\UIControls\bin\Debug\UiControls.dll
+D:\mayu\新版本\UIControls\bin\Debug\UiControls.pdb
+D:\mayu\新版本\UIControls\obj\Debug\ResolveAssemblyReference.cache
+D:\mayu\新版本\UIControls\obj\Debug\UiControls.Properties.Resources.resources
+D:\mayu\新版本\UIControls\obj\Debug\GenerateResource.read.1.tlog
+D:\mayu\新版本\UIControls\obj\Debug\GenerateResource.write.1.tlog
+D:\mayu\新版本\UIControls\obj\Debug\UiControls.dll
+D:\mayu\新版本\UIControls\obj\Debug\UiControls.pdb
+C:\Users\BH-tech\Desktop\SVN\UIControls\bin\Debug\UiControls.dll
+C:\Users\BH-tech\Desktop\SVN\UIControls\bin\Debug\UiControls.pdb
+C:\Users\BH-tech\Desktop\SVN\UIControls\obj\Debug\UiControls.Properties.Resources.resources
+C:\Users\BH-tech\Desktop\SVN\UIControls\obj\Debug\UIControls.csproj.GenerateResource.Cache
+C:\Users\BH-tech\Desktop\SVN\UIControls\obj\Debug\UiControls.dll
+C:\Users\BH-tech\Desktop\SVN\UIControls\obj\Debug\UiControls.pdb

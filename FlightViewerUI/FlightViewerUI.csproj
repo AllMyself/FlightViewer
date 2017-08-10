@@ -1,0 +1,426 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A3360679-5E3A-41DC-8E4E-0748CB3FB367}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BinHong.FlightViewerUI</RootNamespace>
+    <AssemblyName>FlightViewerUI</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;Test</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\bin\Release\</OutputPath>
+    <DefineConstants>TRACE;text1</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>PXILOGO.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="C1.Win.4, Version=4.0.20152.67, Culture=neutral, PublicKeyToken=944ae1ea0e47ca04, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DllRef\C1.Win.4.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1Chart.4, Version=4.0.20152.67, Culture=neutral, PublicKeyToken=a22e16972c085838, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DllRef\C1.Win.C1Chart.4.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1Command.4, Version=4.0.20152.67, Culture=neutral, PublicKeyToken=e808566f358766d8, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DllRef\C1.Win.C1Command.4.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1FlexGrid.4, Version=4.0.20152.67, Culture=neutral, PublicKeyToken=79882d576c6336da, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DllRef\C1.Win.C1FlexGrid.4.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1Input.4, Version=4.0.20152.67, Culture=neutral, PublicKeyToken=7e7ff60f0c214f9a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DllRef\C1.Win.C1Input.4.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1InputPanel.4, Version=4.0.20152.67, Culture=neutral, PublicKeyToken=79882d576c6336da, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DllRef\C1.Win.C1InputPanel.4.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1SplitContainer.4, Version=4.0.20152.67, Culture=neutral, PublicKeyToken=79882d576c6336da, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DllRef\C1.Win.C1SplitContainer.4.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DevicePage\A429Channel\Controls\A429FilterControl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DevicePage\A429Channel\Controls\A429FilterControl.Designer.cs">
+      <DependentUpon>A429FilterControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DevicePage\A429Channel\Controls\A429ReceiveControl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DevicePage\A429Channel\Controls\A429ReceiveControl.Designer.cs">
+      <DependentUpon>A429ReceiveControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DevicePage\A429Channel\Controls\ClickReceiveData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DevicePage\A429Channel\Controls\ClickReceiveData.Designer.cs">
+      <DependentUpon>ClickReceiveData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DevicePage\A429Channel\Controls\DataAnalysis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DevicePage\A429Channel\Controls\DataAnalysis.Designer.cs">
+      <DependentUpon>DataAnalysis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DevicePage\A429Channel\Controls\EditSendLabel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DevicePage\A429Channel\Controls\EditSendLabel.Designer.cs">
+      <DependentUpon>EditSendLabel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DevicePage\A429Channel\Controls\LoopSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DevicePage\A429Channel\Controls\LoopSetting.Designer.cs">
+      <DependentUpon>LoopSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DevicePage\A429Channel\Settings\A429FactorySetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DevicePage\A429Channel\Settings\A429FactorySetting.Designer.cs">
+      <DependentUpon>A429FactorySetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DevicePage\A429Channel\Settings\A429PlayBackSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DevicePage\A429Channel\Settings\A429PlayBackSetting.Designer.cs">
+      <DependentUpon>A429PlayBackSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DevicePage\A429Channel\Settings\A429SendSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DevicePage\A429Channel\Settings\A429SendSetting.Designer.cs">
+      <DependentUpon>A429SendSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DevicePage\A429Channel\Settings\A429ReceiveSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DevicePage\A429Channel\Settings\A429ReceiveSetting.Designer.cs">
+      <DependentUpon>A429ReceiveSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DevicePage\A429Channel\Controls\A429SendControl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DevicePage\A429Channel\Controls\A429SendControl.Designer.cs">
+      <DependentUpon>A429SendControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DevicePage\A429Channel\TreeView\A429ChanelTreeView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DevicePage\A429Channel\TreeView\A429ChannelTreeViewContainer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DevicePage\A429Channel\TreeView\A429ChannelTreeViewContainer.Designer.cs">
+      <DependentUpon>A429ChannelTreeViewContainer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DevicePage\A429Channel\TreeView\A429TreeUiNode.cs" />
+    <Compile Include="DevicePage\DevicePage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DevicePage\DevicePage.Designer.cs">
+      <DependentUpon>DevicePage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HelpMenu\AboutSoftware.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HelpMenu\AboutSoftware.Designer.cs">
+      <DependentUpon>AboutSoftware.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainWindow\MainWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainWindow\MainWindow.Designer.cs">
+      <DependentUpon>MainWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainWindow\TopMenu.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="NewDevice\frmLoad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewDevice\frmLoad.designer.cs">
+      <DependentUpon>frmLoad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewDevice\NewDevice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewDevice\NewDevice.Designer.cs">
+      <DependentUpon>NewDevice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainWindow\PageManager\PageManager.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="MainWindow\TrewView\SimpleTreeView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MainWindow\TrewView\TreeContexMenu.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MainWindow\TrewView\TreeNodeImageName.cs" />
+    <Compile Include="MainWindow\TrewView\TreeUiNode.cs" />
+    <Compile Include="MainWindow\TrewView\TreeViewContainer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MainWindow\TrewView\TreeViewContainer.Designer.cs">
+      <DependentUpon>TreeViewContainer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RunningLog\RunningHistoryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UiInvoker.cs" />
+    <Compile Include="UserControls\FixedSingleForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="DevicePage\A429Channel\Controls\A429FilterControl.resx">
+      <DependentUpon>A429FilterControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DevicePage\A429Channel\Controls\A429ReceiveControl.resx">
+      <DependentUpon>A429ReceiveControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DevicePage\A429Channel\Controls\ClickReceiveData.resx">
+      <DependentUpon>ClickReceiveData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DevicePage\A429Channel\Controls\DataAnalysis.resx">
+      <DependentUpon>DataAnalysis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DevicePage\A429Channel\Controls\EditSendLabel.resx">
+      <DependentUpon>EditSendLabel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DevicePage\A429Channel\Controls\LoopSetting.resx">
+      <DependentUpon>LoopSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DevicePage\A429Channel\Settings\A429FactorySetting.resx">
+      <DependentUpon>A429FactorySetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DevicePage\A429Channel\Settings\A429PlayBackSetting.resx">
+      <DependentUpon>A429PlayBackSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DevicePage\A429Channel\Settings\A429SendSetting.resx">
+      <DependentUpon>A429SendSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DevicePage\A429Channel\Settings\A429ReceiveSetting.resx">
+      <DependentUpon>A429ReceiveSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DevicePage\A429Channel\Controls\A429SendControl.resx">
+      <DependentUpon>A429SendControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DevicePage\DevicePage.resx">
+      <DependentUpon>DevicePage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HelpMenu\AboutSoftware.resx">
+      <DependentUpon>AboutSoftware.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainWindow\MainWindow.resx">
+      <DependentUpon>MainWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewDevice\frmLoad.resx">
+      <DependentUpon>frmLoad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewDevice\NewDevice.resx">
+      <DependentUpon>NewDevice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RunningLog\RunningHistoryForm.resx">
+      <DependentUpon>RunningHistoryForm.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="FlightViewer帮助文档.chm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\activity_act.gif" />
+    <None Include="Resources\Add.gif" />
+    <None Include="Resources\ADDConn.gif" />
+    <None Include="Resources\AnalyseOnline.gif" />
+    <None Include="Resources\BinHong_Background.png" />
+    <None Include="Resources\Delete.gif" />
+    <None Include="Resources\Device.gif" />
+    <None Include="Resources\DeviceTree_ccs_debug.gif" />
+    <None Include="Resources\DeviceTree_refresh_tab.gif" />
+    <None Include="Resources\edtsrclkup_co%281%29.gif" />
+    <None Include="Resources\Load.png" />
+    <None Include="Resources\Refresh.gif" />
+    <None Include="Resources\resume.gif" />
+    <None Include="Resources\Update.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\BinHong_Biaozhi.png" />
+    <Content Include="Resources\BinHong_ErWeiMa.png" />
+    <Content Include="Resources\book_next.png" />
+    <Content Include="Resources\book_previous.png" />
+    <Content Include="Resources\ChartCollection.png" />
+    <Content Include="Resources\chart_bar.png" />
+    <Content Include="Resources\clock_start.png" />
+    <Content Include="Resources\clock_stop.png" />
+    <Content Include="Resources\computer_edit.png" />
+    <Content Include="Resources\ConnSetting.png" />
+    <Content Include="Resources\copy.gif" />
+    <Content Include="Resources\DeviceAdd.gif" />
+    <Content Include="Resources\DeviceDelete.gif" />
+    <Content Include="Resources\DeviceTree_connect.gif" />
+    <Content Include="Resources\DeviceTree_console.gif" />
+    <Content Include="Resources\DeviceTree_debug.gif" />
+    <Content Include="Resources\DeviceTree_device.gif" />
+    <Content Include="Resources\DeviceTree_disconnect.gif" />
+    <Content Include="Resources\DeviceTree_disconnect_co.gif" />
+    <Content Include="Resources\DeviceTree_edit_connection.gif" />
+    <Content Include="Resources\DeviceTree_gate.gif" />
+    <Content Include="Resources\DeviceTree_slot.png" />
+    <Content Include="Resources\disconnect.gif" />
+    <Content Include="Resources\disk.png" />
+    <Content Include="Resources\EditConn.gif" />
+    <None Include="Resources\edtsrclkup_co%281%291.gif" />
+    <Content Include="Resources\EquipDiagnose.png" />
+    <Content Include="Resources\error.png" />
+    <Content Include="Resources\HelpDOC.gif" />
+    <Content Include="Resources\Info.png" />
+    <Content Include="Resources\links_obj.gif" />
+    <Content Include="Resources\Locked.gif" />
+    <Content Include="Resources\Logs.png" />
+    <Content Include="Resources\MemDrawGraph.gif" />
+    <Content Include="Resources\MemImport.gif" />
+    <Content Include="Resources\memory_view.gif" />
+    <Content Include="Resources\MemOutport.gif" />
+    <Content Include="Resources\MSGAnalyse.gif" />
+    <Content Include="Resources\ok.png" />
+    <Content Include="Resources\ParaOption.png" />
+    <Content Include="Resources\photo_edit.png" />
+    <Content Include="Resources\plugin.png" />
+    <Content Include="Resources\Save.gif" />
+    <Content Include="Resources\scomp_jar_obj.gif" />
+    <Content Include="Resources\search.png" />
+    <Content Include="Resources\Selected.gif" />
+    <Content Include="Resources\SoftAuthority.png" />
+    <Content Include="Resources\Sort.gif" />
+    <Content Include="Resources\Start.gif" />
+    <Content Include="Resources\Stop.gif" />
+    <Content Include="Resources\TaskRate.png" />
+    <Content Include="Resources\TaskSwitch.gif" />
+    <Content Include="Resources\TechSupport.gif" />
+    <Content Include="Resources\VarAnalyse.gif" />
+    <Content Include="Resources\VarCount.gif" />
+    <Content Include="Resources\waiting.gif" />
+    <Content Include="Resources\Warning.png" />
+    <Content Include="Resources\zoom_in.png" />
+    <Content Include="Resources\zoom_out.png" />
+    <None Include="DllRef\C1.Win.4.dll" />
+    <None Include="DllRef\C1.Win.C1Chart.4.dll" />
+    <None Include="DllRef\C1.Win.C1Command.4.dll" />
+    <None Include="DllRef\C1.Win.C1FlexGrid.4.dll" />
+    <None Include="DllRef\C1.Win.C1Input.4.dll" />
+    <None Include="DllRef\C1.Win.C1InputPanel.4.dll" />
+    <None Include="DllRef\C1.Win.C1SplitContainer.4.dll" />
+    <Content Include="PXILOGO.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FlightViewerCore\FlightViewerCore.csproj">
+      <Project>{8bc4678c-ea34-4247-9aae-470b57ab8d2d}</Project>
+      <Name>FlightViewerCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CommonInterface\CommonInterface.csproj">
+      <Project>{c6c19df0-b801-4e95-abbb-a5e3492c6121}</Project>
+      <Name>CommonInterface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FlightViewerVM\FlightViewerVM.csproj">
+      <Project>{878b2477-17d8-43b7-ab6d-c199d47beed7}</Project>
+      <Name>FlightViewerVM</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UIControls\UIControls.csproj">
+      <Project>{7F8A68EF-5096-4484-8EFB-37C3C9AD8BCB}</Project>
+      <Name>UIControls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Utilities\Utilities.csproj">
+      <Project>{11bc2c32-d925-401c-a6da-688ba8836fc4}</Project>
+      <Name>Utilities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 和 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

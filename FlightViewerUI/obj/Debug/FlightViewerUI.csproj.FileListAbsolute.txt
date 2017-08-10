@@ -1,0 +1,210 @@
+C:\Users\BH-tech\Desktop\我的工作空间git - 副本\bin\Debug\Config\LangConfig\CNG.xml
+C:\Users\BH-tech\Desktop\我的工作空间git - 副本\bin\Debug\Config\LangConfig\ENG.xml
+C:\Users\BH-tech\Desktop\我的工作空间git - 副本\bin\Debug\RefDll\A429WinDrv.dll
+C:\Users\BH-tech\Desktop\我的工作空间git - 副本\bin\Debug\RefDll\CTest.dll
+C:\Users\BH-tech\Desktop\我的工作空间git - 副本\bin\Debug\Config\Common.cfg
+C:\Users\BH-tech\Desktop\我的工作空间git - 副本\bin\Debug\Config\fv.license
+C:\Users\BH-tech\Desktop\我的工作空间git - 副本\bin\Debug\Config\LangConfig\Language.cfg
+C:\Users\BH-tech\Desktop\我的工作空间git - 副本\bin\Debug\Config\SimulateData.bin
+C:\Users\BH-tech\Desktop\我的工作空间git - 副本\bin\Debug\Config\Version.cfg
+C:\Users\BH-tech\Desktop\我的工作空间git - 副本\bin\Debug\FlightViewer帮助文档.chm
+C:\Users\BH-tech\Desktop\我的工作空间git - 副本\bin\Debug\FlightViewerUI.dll
+C:\Users\BH-tech\Desktop\我的工作空间git - 副本\bin\Debug\FlightViewerUI.pdb
+C:\Users\BH-tech\Desktop\我的工作空间git - 副本\FlightViewerUI\obj\Debug\FlightViewerUI.csprojResolveAssemblyReference.cache
+C:\Users\BH-tech\Desktop\我的工作空间git - 副本\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.A429ReceiveControl.resources
+C:\Users\BH-tech\Desktop\我的工作空间git - 副本\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.ClickReceiveData.resources
+C:\Users\BH-tech\Desktop\我的工作空间git - 副本\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.DataAnalysis.resources
+C:\Users\BH-tech\Desktop\我的工作空间git - 副本\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.EditSendLabel.resources
+C:\Users\BH-tech\Desktop\我的工作空间git - 副本\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.LoopSetting.resources
+C:\Users\BH-tech\Desktop\我的工作空间git - 副本\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.A429FactorySetting.resources
+C:\Users\BH-tech\Desktop\我的工作空间git - 副本\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.A429PlayBackSetting.resources
+C:\Users\BH-tech\Desktop\我的工作空间git - 副本\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.A429ReceiveSetting.resources
+C:\Users\BH-tech\Desktop\我的工作空间git - 副本\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.A429SendControl.resources
+C:\Users\BH-tech\Desktop\我的工作空间git - 副本\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.A429SendSetting.resources
+C:\Users\BH-tech\Desktop\我的工作空间git - 副本\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.DevicePage.resources
+C:\Users\BH-tech\Desktop\我的工作空间git - 副本\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.AboutSoftware.resources
+C:\Users\BH-tech\Desktop\我的工作空间git - 副本\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.MainWindow.resources
+C:\Users\BH-tech\Desktop\我的工作空间git - 副本\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.FrmLoad.resources
+C:\Users\BH-tech\Desktop\我的工作空间git - 副本\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.NewDevice.resources
+C:\Users\BH-tech\Desktop\我的工作空间git - 副本\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.Properties.Resources.resources
+C:\Users\BH-tech\Desktop\我的工作空间git - 副本\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.RunningHistoryForm.resources
+C:\Users\BH-tech\Desktop\我的工作空间git - 副本\FlightViewerUI\obj\Debug\FlightViewerUI.csproj.GenerateResource.Cache
+C:\Users\BH-tech\Desktop\我的工作空间git - 副本\FlightViewerUI\obj\Debug\FlightViewerUI.dll.licenses
+C:\Users\BH-tech\Desktop\我的工作空间git - 副本\FlightViewerUI\obj\Debug\FlightViewerUI.dll
+C:\Users\BH-tech\Desktop\我的工作空间git - 副本\FlightViewerUI\obj\Debug\FlightViewerUI.pdb
+C:\Users\BH-tech\Desktop\我的工作空间svn\bin\Debug\Config\LangConfig\CNG.xml
+C:\Users\BH-tech\Desktop\我的工作空间svn\bin\Debug\Config\LangConfig\ENG.xml
+C:\Users\BH-tech\Desktop\我的工作空间svn\bin\Debug\RefDll\A429WinDrv.dll
+C:\Users\BH-tech\Desktop\我的工作空间svn\bin\Debug\RefDll\CTest.dll
+C:\Users\BH-tech\Desktop\我的工作空间svn\bin\Debug\Config\Common.cfg
+C:\Users\BH-tech\Desktop\我的工作空间svn\bin\Debug\Config\fv.license
+C:\Users\BH-tech\Desktop\我的工作空间svn\bin\Debug\Config\LangConfig\Language.cfg
+C:\Users\BH-tech\Desktop\我的工作空间svn\bin\Debug\Config\SimulateData.bin
+C:\Users\BH-tech\Desktop\我的工作空间svn\bin\Debug\Config\Version.cfg
+C:\Users\BH-tech\Desktop\我的工作空间svn\bin\Debug\FlightViewer帮助文档.chm
+C:\Users\BH-tech\Desktop\我的工作空间svn\bin\Debug\FlightViewerUI.dll
+C:\Users\BH-tech\Desktop\我的工作空间svn\bin\Debug\FlightViewerUI.pdb
+C:\Users\BH-tech\Desktop\我的工作空间svn\FlightViewerUI\obj\Debug\FlightViewerUI.csprojResolveAssemblyReference.cache
+C:\Users\BH-tech\Desktop\我的工作空间svn\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.A429ReceiveControl.resources
+C:\Users\BH-tech\Desktop\我的工作空间svn\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.ClickReceiveData.resources
+C:\Users\BH-tech\Desktop\我的工作空间svn\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.DataAnalysis.resources
+C:\Users\BH-tech\Desktop\我的工作空间svn\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.EditSendLabel.resources
+C:\Users\BH-tech\Desktop\我的工作空间svn\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.LoopSetting.resources
+C:\Users\BH-tech\Desktop\我的工作空间svn\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.A429FactorySetting.resources
+C:\Users\BH-tech\Desktop\我的工作空间svn\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.A429PlayBackSetting.resources
+C:\Users\BH-tech\Desktop\我的工作空间svn\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.A429ReceiveSetting.resources
+C:\Users\BH-tech\Desktop\我的工作空间svn\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.A429SendControl.resources
+C:\Users\BH-tech\Desktop\我的工作空间svn\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.A429SendSetting.resources
+C:\Users\BH-tech\Desktop\我的工作空间svn\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.DevicePage.resources
+C:\Users\BH-tech\Desktop\我的工作空间svn\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.AboutSoftware.resources
+C:\Users\BH-tech\Desktop\我的工作空间svn\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.MainWindow.resources
+C:\Users\BH-tech\Desktop\我的工作空间svn\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.FrmLoad.resources
+C:\Users\BH-tech\Desktop\我的工作空间svn\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.NewDevice.resources
+C:\Users\BH-tech\Desktop\我的工作空间svn\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.Properties.Resources.resources
+C:\Users\BH-tech\Desktop\我的工作空间svn\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.RunningHistoryForm.resources
+C:\Users\BH-tech\Desktop\我的工作空间svn\FlightViewerUI\obj\Debug\FlightViewerUI.csproj.GenerateResource.Cache
+C:\Users\BH-tech\Desktop\我的工作空间svn\FlightViewerUI\obj\Debug\FlightViewerUI.dll
+C:\Users\BH-tech\Desktop\我的工作空间svn\FlightViewerUI\obj\Debug\FlightViewerUI.pdb
+C:\Users\BH-tech\Desktop\我的工作空间svn\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.A429FilterControl.resources
+D:\mayu\mayuzx.FlightViewer\bin\Debug\Config\LangConfig\CNG.xml
+D:\mayu\mayuzx.FlightViewer\bin\Debug\Config\LangConfig\ENG.xml
+D:\mayu\mayuzx.FlightViewer\bin\Debug\RefDll\A429WinDrv.dll
+D:\mayu\mayuzx.FlightViewer\bin\Debug\RefDll\CTest.dll
+D:\mayu\mayuzx.FlightViewer\bin\Debug\Config\Common.cfg
+D:\mayu\mayuzx.FlightViewer\bin\Debug\Config\fv.license
+D:\mayu\mayuzx.FlightViewer\bin\Debug\Config\LangConfig\Language.cfg
+D:\mayu\mayuzx.FlightViewer\bin\Debug\Config\SimulateData.bin
+D:\mayu\mayuzx.FlightViewer\bin\Debug\Config\Version.cfg
+D:\mayu\mayuzx.FlightViewer\bin\Debug\FlightViewer帮助文档.chm
+D:\mayu\mayuzx.FlightViewer\bin\Debug\FlightViewerUI.dll
+D:\mayu\mayuzx.FlightViewer\bin\Debug\FlightViewerUI.pdb
+D:\mayu\mayuzx.FlightViewer\FlightViewerUI\obj\Debug\ResolveAssemblyReference.cache
+D:\mayu\mayuzx.FlightViewer\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.A429FilterControl.resources
+D:\mayu\mayuzx.FlightViewer\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.A429ReceiveControl.resources
+D:\mayu\mayuzx.FlightViewer\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.ClickReceiveData.resources
+D:\mayu\mayuzx.FlightViewer\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.DataAnalysis.resources
+D:\mayu\mayuzx.FlightViewer\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.EditSendLabel.resources
+D:\mayu\mayuzx.FlightViewer\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.LoopSetting.resources
+D:\mayu\mayuzx.FlightViewer\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.A429FactorySetting.resources
+D:\mayu\mayuzx.FlightViewer\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.A429PlayBackSetting.resources
+D:\mayu\mayuzx.FlightViewer\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.A429ReceiveSetting.resources
+D:\mayu\mayuzx.FlightViewer\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.A429SendControl.resources
+D:\mayu\mayuzx.FlightViewer\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.A429SendSetting.resources
+D:\mayu\mayuzx.FlightViewer\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.DevicePage.resources
+D:\mayu\mayuzx.FlightViewer\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.AboutSoftware.resources
+D:\mayu\mayuzx.FlightViewer\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.MainWindow.resources
+D:\mayu\mayuzx.FlightViewer\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.FrmLoad.resources
+D:\mayu\mayuzx.FlightViewer\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.NewDevice.resources
+D:\mayu\mayuzx.FlightViewer\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.Properties.Resources.resources
+D:\mayu\mayuzx.FlightViewer\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.RunningHistoryForm.resources
+D:\mayu\mayuzx.FlightViewer\FlightViewerUI\obj\Debug\GenerateResource.read.1.tlog
+D:\mayu\mayuzx.FlightViewer\FlightViewerUI\obj\Debug\GenerateResource.write.1.tlog
+D:\mayu\mayuzx.FlightViewer\FlightViewerUI\obj\Debug\FlightViewerUI.dll.licenses
+D:\mayu\mayuzx.FlightViewer\FlightViewerUI\obj\Debug\FlightViewerUI.dll
+D:\mayu\mayuzx.FlightViewer\FlightViewerUI\obj\Debug\FlightViewerUI.pdb
+D:\mayu\新版本\bin\Debug\Config\LangConfig\CNG.xml
+D:\mayu\新版本\bin\Debug\Config\LangConfig\ENG.xml
+D:\mayu\新版本\bin\Debug\RefDll\A429WinDrv.dll
+D:\mayu\新版本\bin\Debug\RefDll\CTest.dll
+D:\mayu\新版本\bin\Debug\Config\Common.cfg
+D:\mayu\新版本\bin\Debug\Config\fv.license
+D:\mayu\新版本\bin\Debug\Config\LangConfig\Language.cfg
+D:\mayu\新版本\bin\Debug\Config\SimulateData.bin
+D:\mayu\新版本\bin\Debug\Config\Version.cfg
+D:\mayu\新版本\bin\Debug\FlightViewer帮助文档.chm
+D:\mayu\新版本\bin\Debug\FlightViewerUI.dll
+D:\mayu\新版本\bin\Debug\FlightViewerUI.pdb
+D:\mayu\新版本\FlightViewerUI\obj\Debug\ResolveAssemblyReference.cache
+D:\mayu\新版本\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.A429FilterControl.resources
+D:\mayu\新版本\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.A429ReceiveControl.resources
+D:\mayu\新版本\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.ClickReceiveData.resources
+D:\mayu\新版本\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.DataAnalysis.resources
+D:\mayu\新版本\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.EditSendLabel.resources
+D:\mayu\新版本\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.LoopSetting.resources
+D:\mayu\新版本\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.A429FactorySetting.resources
+D:\mayu\新版本\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.A429PlayBackSetting.resources
+D:\mayu\新版本\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.A429ReceiveSetting.resources
+D:\mayu\新版本\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.A429SendControl.resources
+D:\mayu\新版本\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.A429SendSetting.resources
+D:\mayu\新版本\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.DevicePage.resources
+D:\mayu\新版本\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.AboutSoftware.resources
+D:\mayu\新版本\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.MainWindow.resources
+D:\mayu\新版本\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.FrmLoad.resources
+D:\mayu\新版本\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.NewDevice.resources
+D:\mayu\新版本\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.Properties.Resources.resources
+D:\mayu\新版本\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.RunningHistoryForm.resources
+D:\mayu\新版本\FlightViewerUI\obj\Debug\GenerateResource.read.1.tlog
+D:\mayu\新版本\FlightViewerUI\obj\Debug\GenerateResource.write.1.tlog
+D:\mayu\新版本\FlightViewerUI\obj\Debug\FlightViewerUI.dll
+D:\mayu\新版本\FlightViewerUI\obj\Debug\FlightViewerUI.pdb
+D:\mayu\新版本\FlightViewerUI\obj\Debug\FlightViewerUI.dll.licenses
+C:\Users\BH-tech\Desktop\新版本\FlightViewerUI\obj\Debug\FlightViewerUI.csprojResolveAssemblyReference.cache
+C:\Users\BH-tech\Desktop\新版本\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.A429FilterControl.resources
+C:\Users\BH-tech\Desktop\新版本\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.A429ReceiveControl.resources
+C:\Users\BH-tech\Desktop\新版本\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.ClickReceiveData.resources
+C:\Users\BH-tech\Desktop\新版本\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.DataAnalysis.resources
+C:\Users\BH-tech\Desktop\新版本\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.EditSendLabel.resources
+C:\Users\BH-tech\Desktop\新版本\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.LoopSetting.resources
+C:\Users\BH-tech\Desktop\新版本\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.A429FactorySetting.resources
+C:\Users\BH-tech\Desktop\新版本\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.A429PlayBackSetting.resources
+C:\Users\BH-tech\Desktop\新版本\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.A429ReceiveSetting.resources
+C:\Users\BH-tech\Desktop\新版本\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.A429SendControl.resources
+C:\Users\BH-tech\Desktop\新版本\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.A429SendSetting.resources
+C:\Users\BH-tech\Desktop\新版本\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.DevicePage.resources
+C:\Users\BH-tech\Desktop\新版本\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.AboutSoftware.resources
+C:\Users\BH-tech\Desktop\新版本\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.MainWindow.resources
+C:\Users\BH-tech\Desktop\新版本\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.FrmLoad.resources
+C:\Users\BH-tech\Desktop\新版本\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.NewDevice.resources
+C:\Users\BH-tech\Desktop\新版本\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.Properties.Resources.resources
+C:\Users\BH-tech\Desktop\新版本\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.RunningHistoryForm.resources
+C:\Users\BH-tech\Desktop\新版本\FlightViewerUI\obj\Debug\FlightViewerUI.csproj.GenerateResource.Cache
+C:\Users\BH-tech\Desktop\新版本\FlightViewerUI\obj\Debug\FlightViewerUI.dll
+C:\Users\BH-tech\Desktop\新版本\FlightViewerUI\obj\Debug\FlightViewerUI.pdb
+C:\Users\BH-tech\Desktop\新版本\bin\Debug\Config\LangConfig\CNG.xml
+C:\Users\BH-tech\Desktop\新版本\bin\Debug\Config\LangConfig\ENG.xml
+C:\Users\BH-tech\Desktop\新版本\bin\Debug\RefDll\A429WinDrv.dll
+C:\Users\BH-tech\Desktop\新版本\bin\Debug\RefDll\CTest.dll
+C:\Users\BH-tech\Desktop\新版本\bin\Debug\Config\Common.cfg
+C:\Users\BH-tech\Desktop\新版本\bin\Debug\Config\fv.license
+C:\Users\BH-tech\Desktop\新版本\bin\Debug\Config\LangConfig\Language.cfg
+C:\Users\BH-tech\Desktop\新版本\bin\Debug\Config\SimulateData.bin
+C:\Users\BH-tech\Desktop\新版本\bin\Debug\Config\Version.cfg
+C:\Users\BH-tech\Desktop\新版本\bin\Debug\FlightViewer帮助文档.chm
+C:\Users\BH-tech\Desktop\新版本\bin\Debug\FlightViewerUI.dll
+C:\Users\BH-tech\Desktop\新版本\bin\Debug\FlightViewerUI.pdb
+C:\Users\BH-tech\Desktop\新版本\FlightViewerUI\obj\Debug\FlightViewerUI.dll.licenses
+C:\Users\BH-tech\Desktop\SVN\FlightViewerUI\obj\Debug\FlightViewerUI.csprojResolveAssemblyReference.cache
+C:\Users\BH-tech\Desktop\SVN\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.A429FilterControl.resources
+C:\Users\BH-tech\Desktop\SVN\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.A429ReceiveControl.resources
+C:\Users\BH-tech\Desktop\SVN\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.ClickReceiveData.resources
+C:\Users\BH-tech\Desktop\SVN\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.DataAnalysis.resources
+C:\Users\BH-tech\Desktop\SVN\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.EditSendLabel.resources
+C:\Users\BH-tech\Desktop\SVN\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.LoopSetting.resources
+C:\Users\BH-tech\Desktop\SVN\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.A429FactorySetting.resources
+C:\Users\BH-tech\Desktop\SVN\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.A429PlayBackSetting.resources
+C:\Users\BH-tech\Desktop\SVN\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.A429SendSetting.resources
+C:\Users\BH-tech\Desktop\SVN\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.A429ReceiveSetting.resources
+C:\Users\BH-tech\Desktop\SVN\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.A429SendControl.resources
+C:\Users\BH-tech\Desktop\SVN\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.DevicePage.resources
+C:\Users\BH-tech\Desktop\SVN\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.AboutSoftware.resources
+C:\Users\BH-tech\Desktop\SVN\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.MainWindow.resources
+C:\Users\BH-tech\Desktop\SVN\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.FrmLoad.resources
+C:\Users\BH-tech\Desktop\SVN\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.NewDevice.resources
+C:\Users\BH-tech\Desktop\SVN\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.Properties.Resources.resources
+C:\Users\BH-tech\Desktop\SVN\FlightViewerUI\obj\Debug\BinHong.FlightViewerUI.RunningHistoryForm.resources
+C:\Users\BH-tech\Desktop\SVN\FlightViewerUI\obj\Debug\FlightViewerUI.csproj.GenerateResource.Cache
+C:\Users\BH-tech\Desktop\SVN\FlightViewerUI\obj\Debug\FlightViewerUI.dll
+C:\Users\BH-tech\Desktop\SVN\bin\Debug\Config\LangConfig\CNG.xml
+C:\Users\BH-tech\Desktop\SVN\bin\Debug\Config\LangConfig\ENG.xml
+C:\Users\BH-tech\Desktop\SVN\bin\Debug\RefDll\A429WinDrv.dll
+C:\Users\BH-tech\Desktop\SVN\bin\Debug\RefDll\CTest.dll
+C:\Users\BH-tech\Desktop\SVN\bin\Debug\Config\Common.cfg
+C:\Users\BH-tech\Desktop\SVN\bin\Debug\Config\fv.license
+C:\Users\BH-tech\Desktop\SVN\bin\Debug\Config\LangConfig\Language.cfg
+C:\Users\BH-tech\Desktop\SVN\bin\Debug\Config\SimulateData.bin
+C:\Users\BH-tech\Desktop\SVN\bin\Debug\Config\Version.cfg
+C:\Users\BH-tech\Desktop\SVN\bin\Debug\FlightViewer帮助文档.chm
+C:\Users\BH-tech\Desktop\SVN\bin\Debug\FlightViewerUI.dll
+C:\Users\BH-tech\Desktop\SVN\bin\Debug\FlightViewerUI.pdb
+C:\Users\BH-tech\Desktop\SVN\FlightViewerUI\obj\Debug\FlightViewerUI.pdb
+C:\Users\BH-tech\Desktop\SVN\FlightViewerUI\obj\Debug\FlightViewerUI.dll.licenses

@@ -1,0 +1,24 @@
+C:\Users\BH-tech\Desktop\我的工作空间git - 副本\bin\Debug\Utilities.dll
+C:\Users\BH-tech\Desktop\我的工作空间git - 副本\bin\Debug\Utilities.pdb
+C:\Users\BH-tech\Desktop\我的工作空间git - 副本\Utilities\obj\Debug\Utilities.csprojResolveAssemblyReference.cache
+C:\Users\BH-tech\Desktop\我的工作空间git - 副本\Utilities\obj\Debug\Utilities.dll
+C:\Users\BH-tech\Desktop\我的工作空间git - 副本\Utilities\obj\Debug\Utilities.pdb
+C:\Users\BH-tech\Desktop\我的工作空间svn\bin\Debug\Utilities.dll
+C:\Users\BH-tech\Desktop\我的工作空间svn\bin\Debug\Utilities.pdb
+C:\Users\BH-tech\Desktop\我的工作空间svn\Utilities\obj\Debug\Utilities.dll
+C:\Users\BH-tech\Desktop\我的工作空间svn\Utilities\obj\Debug\Utilities.pdb
+D:\mayu\mayuzx.FlightViewer\bin\Debug\Utilities.dll
+D:\mayu\mayuzx.FlightViewer\bin\Debug\Utilities.pdb
+D:\mayu\mayuzx.FlightViewer\Utilities\obj\Debug\ResolveAssemblyReference.cache
+D:\mayu\mayuzx.FlightViewer\Utilities\obj\Debug\Utilities.dll
+D:\mayu\mayuzx.FlightViewer\Utilities\obj\Debug\Utilities.pdb
+C:\Users\BH-tech\Desktop\我的工作空间svn\Utilities\obj\Debug\Utilities.csprojResolveAssemblyReference.cache
+D:\mayu\新版本\bin\Debug\Utilities.dll
+D:\mayu\新版本\bin\Debug\Utilities.pdb
+D:\mayu\新版本\Utilities\obj\Debug\ResolveAssemblyReference.cache
+D:\mayu\新版本\Utilities\obj\Debug\Utilities.dll
+D:\mayu\新版本\Utilities\obj\Debug\Utilities.pdb
+C:\Users\BH-tech\Desktop\SVN\bin\Debug\Utilities.dll
+C:\Users\BH-tech\Desktop\SVN\bin\Debug\Utilities.pdb
+C:\Users\BH-tech\Desktop\SVN\Utilities\obj\Debug\Utilities.dll
+C:\Users\BH-tech\Desktop\SVN\Utilities\obj\Debug\Utilities.pdb

@@ -1,0 +1,14 @@
+D:\mayu\mayuzx.FlightViewer\bin\Release\Config\LangConfig\CNG.xml
+D:\mayu\mayuzx.FlightViewer\bin\Release\Config\LangConfig\ENG.xml
+D:\mayu\mayuzx.FlightViewer\bin\Release\RefDll\A429WinDrv.dll
+D:\mayu\mayuzx.FlightViewer\bin\Release\RefDll\CTest.dll
+D:\mayu\mayuzx.FlightViewer\bin\Release\Config\Common.cfg
+D:\mayu\mayuzx.FlightViewer\bin\Release\Config\fv.license
+D:\mayu\mayuzx.FlightViewer\bin\Release\Config\LangConfig\Language.cfg
+D:\mayu\mayuzx.FlightViewer\bin\Release\Config\SimulateData.bin
+D:\mayu\mayuzx.FlightViewer\bin\Release\Config\Version.cfg
+D:\mayu\mayuzx.FlightViewer\bin\Release\FlightViewerVM1.dll
+D:\mayu\mayuzx.FlightViewer\bin\Release\FlightViewerVM1.pdb
+D:\mayu\mayuzx.FlightViewer\FlightViewerVM\obj\Release\ResolveAssemblyReference.cache
+D:\mayu\mayuzx.FlightViewer\FlightViewerVM\obj\Release\FlightViewerVM1.dll
+D:\mayu\mayuzx.FlightViewer\FlightViewerVM\obj\Release\FlightViewerVM1.pdb

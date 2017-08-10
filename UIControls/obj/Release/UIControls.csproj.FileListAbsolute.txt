@@ -1,0 +1,8 @@
+D:\mayu\mayuzx.FlightViewer\UIControls\bin\Release\UiControls.dll
+D:\mayu\mayuzx.FlightViewer\UIControls\bin\Release\UiControls.pdb
+D:\mayu\mayuzx.FlightViewer\UIControls\obj\Release\ResolveAssemblyReference.cache
+D:\mayu\mayuzx.FlightViewer\UIControls\obj\Release\UiControls.Properties.Resources.resources
+D:\mayu\mayuzx.FlightViewer\UIControls\obj\Release\GenerateResource.read.1.tlog
+D:\mayu\mayuzx.FlightViewer\UIControls\obj\Release\GenerateResource.write.1.tlog
+D:\mayu\mayuzx.FlightViewer\UIControls\obj\Release\UiControls.dll
+D:\mayu\mayuzx.FlightViewer\UIControls\obj\Release\UiControls.pdb

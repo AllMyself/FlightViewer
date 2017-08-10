@@ -1,0 +1,84 @@
+C:\Users\BH-tech\Desktop\我的工作空间git - 副本\bin\Debug\Config\LangConfig\CNG.xml
+C:\Users\BH-tech\Desktop\我的工作空间git - 副本\bin\Debug\Config\LangConfig\ENG.xml
+C:\Users\BH-tech\Desktop\我的工作空间git - 副本\bin\Debug\RefDll\A429WinDrv.dll
+C:\Users\BH-tech\Desktop\我的工作空间git - 副本\bin\Debug\RefDll\CTest.dll
+C:\Users\BH-tech\Desktop\我的工作空间git - 副本\bin\Debug\Config\Common.cfg
+C:\Users\BH-tech\Desktop\我的工作空间git - 副本\bin\Debug\Config\fv.license
+C:\Users\BH-tech\Desktop\我的工作空间git - 副本\bin\Debug\Config\LangConfig\Language.cfg
+C:\Users\BH-tech\Desktop\我的工作空间git - 副本\bin\Debug\Config\SimulateData.bin
+C:\Users\BH-tech\Desktop\我的工作空间git - 副本\bin\Debug\Config\Version.cfg
+C:\Users\BH-tech\Desktop\我的工作空间git - 副本\bin\Debug\Bootstrap.exe
+C:\Users\BH-tech\Desktop\我的工作空间git - 副本\bin\Debug\Bootstrap.pdb
+C:\Users\BH-tech\Desktop\我的工作空间git - 副本\Bootstrap\obj\Debug\Bootstrap.csprojResolveAssemblyReference.cache
+C:\Users\BH-tech\Desktop\我的工作空间git - 副本\Bootstrap\obj\Debug\Bootstrap.exe
+C:\Users\BH-tech\Desktop\我的工作空间git - 副本\Bootstrap\obj\Debug\Bootstrap.pdb
+C:\Users\BH-tech\Desktop\我的工作空间svn\bin\Debug\Config\LangConfig\CNG.xml
+C:\Users\BH-tech\Desktop\我的工作空间svn\bin\Debug\Config\LangConfig\ENG.xml
+C:\Users\BH-tech\Desktop\我的工作空间svn\bin\Debug\RefDll\A429WinDrv.dll
+C:\Users\BH-tech\Desktop\我的工作空间svn\bin\Debug\RefDll\CTest.dll
+C:\Users\BH-tech\Desktop\我的工作空间svn\bin\Debug\Config\Common.cfg
+C:\Users\BH-tech\Desktop\我的工作空间svn\bin\Debug\Config\fv.license
+C:\Users\BH-tech\Desktop\我的工作空间svn\bin\Debug\Config\LangConfig\Language.cfg
+C:\Users\BH-tech\Desktop\我的工作空间svn\bin\Debug\Config\SimulateData.bin
+C:\Users\BH-tech\Desktop\我的工作空间svn\bin\Debug\Config\Version.cfg
+C:\Users\BH-tech\Desktop\我的工作空间svn\bin\Debug\Bootstrap.exe
+C:\Users\BH-tech\Desktop\我的工作空间svn\bin\Debug\Bootstrap.pdb
+C:\Users\BH-tech\Desktop\我的工作空间svn\Bootstrap\obj\Debug\Bootstrap.csprojResolveAssemblyReference.cache
+C:\Users\BH-tech\Desktop\我的工作空间svn\Bootstrap\obj\Debug\Bootstrap.exe
+C:\Users\BH-tech\Desktop\我的工作空间svn\Bootstrap\obj\Debug\Bootstrap.pdb
+D:\mayu\mayuzx.FlightViewer\bin\Debug\Config\LangConfig\CNG.xml
+D:\mayu\mayuzx.FlightViewer\bin\Debug\Config\LangConfig\ENG.xml
+D:\mayu\mayuzx.FlightViewer\bin\Debug\RefDll\A429WinDrv.dll
+D:\mayu\mayuzx.FlightViewer\bin\Debug\RefDll\CTest.dll
+D:\mayu\mayuzx.FlightViewer\bin\Debug\Config\Common.cfg
+D:\mayu\mayuzx.FlightViewer\bin\Debug\Config\fv.license
+D:\mayu\mayuzx.FlightViewer\bin\Debug\Config\LangConfig\Language.cfg
+D:\mayu\mayuzx.FlightViewer\bin\Debug\Config\SimulateData.bin
+D:\mayu\mayuzx.FlightViewer\bin\Debug\Config\Version.cfg
+D:\mayu\mayuzx.FlightViewer\bin\Debug\Bootstrap.exe
+D:\mayu\mayuzx.FlightViewer\bin\Debug\Bootstrap.pdb
+D:\mayu\mayuzx.FlightViewer\Bootstrap\obj\Debug\ResolveAssemblyReference.cache
+D:\mayu\mayuzx.FlightViewer\Bootstrap\obj\Debug\Bootstrap.exe
+D:\mayu\mayuzx.FlightViewer\Bootstrap\obj\Debug\Bootstrap.pdb
+D:\mayu\新版本\bin\Debug\Config\LangConfig\CNG.xml
+D:\mayu\新版本\bin\Debug\Config\LangConfig\ENG.xml
+D:\mayu\新版本\bin\Debug\RefDll\A429WinDrv.dll
+D:\mayu\新版本\bin\Debug\RefDll\CTest.dll
+D:\mayu\新版本\bin\Debug\Config\Common.cfg
+D:\mayu\新版本\bin\Debug\Config\fv.license
+D:\mayu\新版本\bin\Debug\Config\LangConfig\Language.cfg
+D:\mayu\新版本\bin\Debug\Config\SimulateData.bin
+D:\mayu\新版本\bin\Debug\Config\Version.cfg
+D:\mayu\新版本\bin\Debug\Bootstrap.exe
+D:\mayu\新版本\bin\Debug\Bootstrap.pdb
+D:\mayu\新版本\Bootstrap\obj\Debug\ResolveAssemblyReference.cache
+D:\mayu\新版本\Bootstrap\obj\Debug\Bootstrap.exe
+D:\mayu\新版本\Bootstrap\obj\Debug\Bootstrap.pdb
+C:\Users\BH-tech\Desktop\新版本\bin\Debug\Config\LangConfig\CNG.xml
+C:\Users\BH-tech\Desktop\新版本\bin\Debug\Config\LangConfig\ENG.xml
+C:\Users\BH-tech\Desktop\新版本\bin\Debug\RefDll\A429WinDrv.dll
+C:\Users\BH-tech\Desktop\新版本\bin\Debug\RefDll\CTest.dll
+C:\Users\BH-tech\Desktop\新版本\bin\Debug\Config\Common.cfg
+C:\Users\BH-tech\Desktop\新版本\bin\Debug\Config\fv.license
+C:\Users\BH-tech\Desktop\新版本\bin\Debug\Config\LangConfig\Language.cfg
+C:\Users\BH-tech\Desktop\新版本\bin\Debug\Config\SimulateData.bin
+C:\Users\BH-tech\Desktop\新版本\bin\Debug\Config\Version.cfg
+C:\Users\BH-tech\Desktop\新版本\bin\Debug\Bootstrap.exe
+C:\Users\BH-tech\Desktop\新版本\bin\Debug\Bootstrap.pdb
+C:\Users\BH-tech\Desktop\新版本\Bootstrap\obj\Debug\Bootstrap.csprojResolveAssemblyReference.cache
+C:\Users\BH-tech\Desktop\新版本\Bootstrap\obj\Debug\Bootstrap.exe
+C:\Users\BH-tech\Desktop\新版本\Bootstrap\obj\Debug\Bootstrap.pdb
+C:\Users\BH-tech\Desktop\SVN\bin\Debug\Config\LangConfig\CNG.xml
+C:\Users\BH-tech\Desktop\SVN\bin\Debug\Config\LangConfig\ENG.xml
+C:\Users\BH-tech\Desktop\SVN\bin\Debug\RefDll\A429WinDrv.dll
+C:\Users\BH-tech\Desktop\SVN\bin\Debug\RefDll\CTest.dll
+C:\Users\BH-tech\Desktop\SVN\bin\Debug\Config\Common.cfg
+C:\Users\BH-tech\Desktop\SVN\bin\Debug\Config\fv.license
+C:\Users\BH-tech\Desktop\SVN\bin\Debug\Config\LangConfig\Language.cfg
+C:\Users\BH-tech\Desktop\SVN\bin\Debug\Config\SimulateData.bin
+C:\Users\BH-tech\Desktop\SVN\bin\Debug\Config\Version.cfg
+C:\Users\BH-tech\Desktop\SVN\bin\Debug\Bootstrap.exe
+C:\Users\BH-tech\Desktop\SVN\bin\Debug\Bootstrap.pdb
+C:\Users\BH-tech\Desktop\SVN\Bootstrap\obj\Debug\Bootstrap.csprojResolveAssemblyReference.cache
+C:\Users\BH-tech\Desktop\SVN\Bootstrap\obj\Debug\Bootstrap.exe
+C:\Users\BH-tech\Desktop\SVN\Bootstrap\obj\Debug\Bootstrap.pdb

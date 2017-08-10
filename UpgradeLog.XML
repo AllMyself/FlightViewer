@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="FlightViewer">
+</Property><Property Name="解决方案文件" Value="D:\mayu\mayuzx.FlightViewer\FlightViewer.sln">
+</Property><Property Name="Date" Value="2017年7月25日">
+</Property><Property Name="Time" Value="12:51">
+</Property></Properties><Event ErrorLevel="0" Project="FlightViewerUI" Source="FlightViewerUI\FlightViewerUI.csproj" Description="项目文件不需要转换。">
+</Event><Event ErrorLevel="3" Project="FlightViewerUI" Source="FlightViewerUI\FlightViewerUI.csproj" Description="无需转换">
+</Event><Event ErrorLevel="0" Project="FlightViewerVM" Source="FlightViewerVM\FlightViewerVM.csproj" Description="项目文件不需要转换。">
+</Event><Event ErrorLevel="3" Project="FlightViewerVM" Source="FlightViewerVM\FlightViewerVM.csproj" Description="无需转换">
+</Event><Event ErrorLevel="0" Project="FlightViewerCore" Source="FlightViewerCore\FlightViewerCore.csproj" Description="项目文件不需要转换。">
+</Event><Event ErrorLevel="3" Project="FlightViewerCore" Source="FlightViewerCore\FlightViewerCore.csproj" Description="无需转换">
+</Event><Event ErrorLevel="0" Project="UIControls" Source="UIControls\UIControls.csproj" Description="项目文件不需要转换。">
+</Event><Event ErrorLevel="3" Project="UIControls" Source="UIControls\UIControls.csproj" Description="无需转换">
+</Event><Event ErrorLevel="0" Project="Utilities" Source="Utilities\Utilities.csproj" Description="项目文件不需要转换。">
+</Event><Event ErrorLevel="3" Project="Utilities" Source="Utilities\Utilities.csproj" Description="无需转换">
+</Event><Event ErrorLevel="0" Project="Bootstrap" Source="Bootstrap\Bootstrap.csproj" Description="项目文件不需要转换。">
+</Event><Event ErrorLevel="3" Project="Bootstrap" Source="Bootstrap\Bootstrap.csproj" Description="无需转换">
+</Event><Event ErrorLevel="0" Project="CommonInterface" Source="CommonInterface\CommonInterface.csproj" Description="项目文件不需要转换。">
+</Event><Event ErrorLevel="3" Project="CommonInterface" Source="CommonInterface\CommonInterface.csproj" Description="无需转换">
+</Event><Event ErrorLevel="0" Project="UnitTest" Source="UnitTest\UnitTest.csproj" Description="项目文件不需要转换。">
+</Event><Event ErrorLevel="3" Project="UnitTest" Source="UnitTest\UnitTest.csproj" Description="无需转换">
+</Event><Event ErrorLevel="0" Project="" Source="FlightViewer.sln" Description="成功转换解决方案">
+</Event><Event ErrorLevel="3" Project="" Source="FlightViewer.sln" Description="Converted">
+</Event></UpgradeLog>

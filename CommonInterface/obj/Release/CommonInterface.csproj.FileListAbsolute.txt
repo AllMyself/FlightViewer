@@ -1,0 +1,5 @@
+D:\mayu\mayuzx.FlightViewer\CommonInterface\bin\Release\CommonInterface.dll
+D:\mayu\mayuzx.FlightViewer\CommonInterface\bin\Release\CommonInterface.pdb
+D:\mayu\mayuzx.FlightViewer\CommonInterface\obj\Release\ResolveAssemblyReference.cache
+D:\mayu\mayuzx.FlightViewer\CommonInterface\obj\Release\CommonInterface.dll
+D:\mayu\mayuzx.FlightViewer\CommonInterface\obj\Release\CommonInterface.pdb

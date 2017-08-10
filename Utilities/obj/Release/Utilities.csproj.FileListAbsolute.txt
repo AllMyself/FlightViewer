@@ -1,0 +1,5 @@
+D:\mayu\mayuzx.FlightViewer\bin\Release\Utilities.dll
+D:\mayu\mayuzx.FlightViewer\bin\Release\Utilities.pdb
+D:\mayu\mayuzx.FlightViewer\Utilities\obj\Release\ResolveAssemblyReference.cache
+D:\mayu\mayuzx.FlightViewer\Utilities\obj\Release\Utilities.dll
+D:\mayu\mayuzx.FlightViewer\Utilities\obj\Release\Utilities.pdb

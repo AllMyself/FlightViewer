@@ -1,0 +1,27 @@
+/* Device ID Constants - Backplane Type (4 bits) -	(DEVID & 0xF0000000) */
+/* Device ID Constants - Board Type (8 bits) -		(DEVID & 0x0FF00000) */
+/* Device ID Constants - Board Number (4 bits) -	(DEVID & 0x000F0000) */
+/* Device ID Constants - Channel Type (8 bits) -	(DEVID & 0x0000FF00) */
+/* Device ID Constants - Channel Number (8 bits) -	(DEVID & 0x000000FF) */
+
+/* general */
+extern char * bht_L1_error_to_string(bht_L0_u32 err_num);
+extern bht_L0_u32 bht_L1_device_probe(bht_L0_u32 dev_id);
+extern bht_L0_u32 bht_L1_device_remove(bht_L0_u32 dev_id);
+
+/* a429 general*/
+extern bht_L0_u32 bht_L1_a429_default_init(bht_L0_u32 dev_id);
+extern bht_L0_u32 bht_L1_a429_chan_param(bht_L0_u32 dev_id, bht_L0_u32 param_opt, bht_L1_a429_chan_param_t *chan_param);
+extern bht_L0_u32 bht_L1_a429_mib_get(bht_L0_u32 dev_id, bht_L0_u32 chan_num, bht_L0_u32 *data);
+extern bht_L0_u32 bht_L1_a429_mib_clear(bht_L0_u32 dev_id, bht_L0_u32 chan_num);
+
+/* a429 tx channel */
+extern bht_L0_u32 bht_L1_a429_tx_chan_inject_param(bht_L0_u32 dev_id, bht_L0_u32 param_opt, bht_L1_a429_tx_chan_inject_param_t *inject_param);
+extern bht_L0_u32 bht_L1_a429_tx_chan_send(bht_L0_u32 dev_id, bht_L0_u32 chan_num,  bht_L0_u32 data);
+extern bht_L0_u32 bht_L1_a429_tx_chan_loop(bht_L0_u32 dev_id, bht_L0_u32 chan_num, bht_L0_u32 opt);
+extern bht_L0_u32 bht_L1_a429_tx_chan_slope_cfg(bht_L0_u32 dev_id, bht_L0_u32 chan_num, bht_L1_a429_slope_e slope); 
+
+/* a429 rx channel */
+extern bht_L0_u32 bht_L1_a429_rx_chan_param(bht_L0_u32 dev_id, bht_L0_u32 param_opt, bht_L1_a429_rx_chan_param_t *rx_param);
+extern bht_L0_u32 bht_L1_a429_rx_chan_filter_param(bht_L0_u32 dev_id, bht_L0_u32 param_opt, bht_L1_a429_rx_chan_filter_param_t *flt_param);
+extern bht_L0_u32 bht_L1_a429_rx_chan_recv(bht_L0_u32 dev_id, bht_L0_u32 chan_num, bht_L0_u32 max_rxp, bht_L0_u32 *rxp_num, bht_L1_a429_rxp_t *rxp_buf, bht_L0_u32 opt);

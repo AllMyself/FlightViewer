@@ -93,7 +93,7 @@ namespace BinHong.FlightViewerVM
         public readonly StatusStripMsgShow MsgShow = new StatusStripMsgShow();
         private readonly Device429 _device429;
 
-        public Channe429Send _curSelectedChannel;
+        public Channe429Send _curSelectedChannel { get; set; }
 
         private int _labelCount = 0;
         public int LabelCount
@@ -282,6 +282,7 @@ namespace BinHong.FlightViewerVM
                     };
 
                     _curSelectedChannel.Add(label);
+                    //_curSelectedChannel.Initialize();
                 }
                 else
                 {

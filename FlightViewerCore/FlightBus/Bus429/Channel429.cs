@@ -174,7 +174,7 @@ namespace BinHong.FlightViewerCore
             {
                 count++;
                 rxpA429Result = rxpA429;//这里将out的数据保存到类中
-                FileHelper.WriteLogForReceive(Convert.ToString(rxpA429.data,2));
+                FileHelper.WriteLogForReceive(Convert.ToString(rxpA429.data, 2));
             }
             MibDataA429 mibDataA429;
             ret = driverRx.ChannelMibGetRx(out mibDataA429);
@@ -191,9 +191,12 @@ namespace BinHong.FlightViewerCore
 
         }
         //找数据
-        public List<string> DataAnalysis(int value)
+        public List<string> DataAnalysis(string data, string sdi, string ssm, int pageIndex, out int pageCount)
         {
-            return DataProcessModule.GetData(value);
+            int pageCount1 = 0;
+            List<string> list = DataProcessModule.GetData(data, sdi, ssm, pageIndex, out pageCount1);
+            pageCount = pageCount1;
+            return list;
         }
         public override void Dispose()
         {
@@ -335,7 +338,7 @@ namespace BinHong.FlightViewerCore
                     }
                     MibDataA429 mibDataA429;
                     ret = driverTx.ChannelMibGetTx(out mibDataA429);
-                    
+
                     if (ret != 0)
                     {
                         RunningLog.Record(string.Format("return value is {0} when invoke ChannelMibGetTx", ret));
@@ -344,11 +347,9 @@ namespace BinHong.FlightViewerCore
                     DeviceCount = mibDataA429.cnt;
                     errDeviceCount = mibDataA429.err_cnt;
                 }
-
             }
 
         }
-
         public bool IsSelected { get; set; }
 
     }

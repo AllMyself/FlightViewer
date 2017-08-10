@@ -23,7 +23,6 @@ namespace BinHong.FlightViewerCore
         }
 
         protected abstract void OnProcess();
-
     }
 
     public class A429SendModule : A429AbstractTxAndRxModule 

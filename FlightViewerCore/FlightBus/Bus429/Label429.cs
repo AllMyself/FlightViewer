@@ -1,4 +1,6 @@
-﻿namespace BinHong.FlightViewerCore
+﻿using BinHong.Utilities;
+using System;
+namespace BinHong.FlightViewerCore
 {
     public abstract class Label429 : AbstractLabel, ILabel429Info, IIsSelected
     {
@@ -79,6 +81,7 @@
         public SendLabel429(string name)
             : base(name)
         {
+
         }
 
         /// <summary>
@@ -86,5 +89,45 @@
         /// </summary>
         public int Interval { get; set; }
         public int cycleInterval { get; set; }
+        //软件上面的周期发送
+        public void Send()
+        {
+            if (Owner == null)
+            {
+                return;
+            }
+            Channe429Send send = (Channe429Send)Owner;
+            Channel429DriverTx driverTx = (Channel429DriverTx)send.ChannelDriver;
+            uint ret = 0;
+            if (!isAutoIncrement)
+            {
+                ret = driverTx.ChannelSendTx((uint)ActualValue, SendOptA429.BHT_L1_A429_OPT_RANDOM_SEND);
+            }
+            else
+            {
+                ActualValue += 1;
+                ret = driverTx.ChannelSendTx((uint)ActualValue, SendOptA429.BHT_L1_A429_OPT_RANDOM_SEND);
+            }
+            if (ret != 0)
+            {
+                RunningLog.Record(string.Format("return value is {0} when invoke ChannelSendTx", ret));
+                send.errCount++;
+            }
+            else
+            {
+                send.labelCount++;
+                FileHelper.WriteLogForSend(Convert.ToString(ActualValue, 2));
+            }
+            MibDataA429 mibDataA429;
+            ret = driverTx.ChannelMibGetTx(out mibDataA429);
+
+            if (ret != 0)
+            {
+                RunningLog.Record(string.Format("return value is {0} when invoke ChannelMibGetTx", ret));
+                send.errCount++;
+            }
+            send.DeviceCount = mibDataA429.cnt;
+            send.errDeviceCount = mibDataA429.err_cnt;
+        }
     }
 }

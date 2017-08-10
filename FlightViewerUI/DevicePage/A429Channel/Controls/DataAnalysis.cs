@@ -24,6 +24,8 @@ namespace BinHong.FlightViewerUI
         int scrollBarValue { get; set; }
 
         List<string> list;
+        int pageCount = 0;
+        int pageIndex = 1;
 
         public DataAnalysis()
         {
@@ -40,7 +42,8 @@ namespace BinHong.FlightViewerUI
             foreach (var item in channelReceives)
             {
                 Channe429Receive receive = item;
-                List<string> listReturn = receive.DataAnalysis(scrollBarValue);
+
+                List<string> listReturn = receive.DataAnalysis(textBox2.Text, textBox3.Text, textBox4.Text, pageIndex, out pageCount);
                 list.AddRange(listReturn);
             }
             foreach (string item in list)
@@ -61,7 +64,7 @@ namespace BinHong.FlightViewerUI
             foreach (var item in channelReceives)
             {
                 Channe429Receive receive = item;
-                List<string> listReturn = receive.DataAnalysis(scrollBarValue);
+                List<string> listReturn = receive.DataAnalysis(textBox2.Text, textBox3.Text, textBox4.Text, pageIndex, out pageCount);
                 list.AddRange(listReturn);
             }
             foreach (string item in list)
@@ -99,5 +102,70 @@ namespace BinHong.FlightViewerUI
                 }
             }
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if (pageIndex == 1)
+            {
+                return;
+            }
+            //list = new List<string>();
+            //foreach (var item in channelReceives)
+            //{
+            //    Channe429Receive receive = item;
+            //    List<string> listReturn = receive.DataAnalysis(textBox2.Text, textBox3.Text, textBox4.Text, 1, out pageCount);
+            //    pageIndex = 1;
+            //    list.AddRange(listReturn);
+            //}
+            //foreach (string item in list)
+            //{
+            //    this.textBox1.Text += item + "\r\n";
+            //}
+            pageControl(1);
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            if (pageIndex == pageCount)
+            {
+                return;
+            }
+            pageControl(pageIndex);
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            if (pageIndex == 1)
+            {
+                return;
+            }
+            pageControl(pageIndex + 1);
+            pageIndex++;
+        }
+        private void button5_Click(object sender, EventArgs e)
+        {
+            if (pageIndex == pageCount)
+            {
+                return;
+            }
+            pageControl(pageIndex);
+        }
+        private void pageControl(int num)
+        {
+            list = new List<string>();
+            foreach (var item in channelReceives)
+            {
+                Channe429Receive receive = item;
+                List<string> listReturn = receive.DataAnalysis(textBox2.Text, textBox3.Text, textBox4.Text, num, out pageCount);
+                pageIndex = 1;
+                list.AddRange(listReturn);
+            }
+            foreach (string item in list)
+            {
+                this.textBox1.Text += item + "\r\n";
+            }
+        }
+
+
     }
 }

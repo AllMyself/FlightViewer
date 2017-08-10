@@ -41,7 +41,7 @@ namespace BinHong.FlightViewerCore
             if (rxpNum > 0)
             {
                 _fileStream = new FileStream(path, FileMode.Append);
-                string str = rxpA429.data.ToString();
+                string str = Convert.ToString(rxpA429.data, 2);
                 Encoding encode = Encoding.UTF8;
                 byte[] data = encode.GetBytes(str);
                 _fileStream.Write(data, 0, data.Length);
@@ -54,7 +54,7 @@ namespace BinHong.FlightViewerCore
         /// </summary>
         /// <param name="percent">百分比</param>
         /// <returns></returns>
-        public List<string> GetData(int position)
+        public List<string> GetData(string data, string sdi, string ssm, int pageIndex, out int pageCount)
         {
             _fileStream = new FileStream(path, FileMode.Open, FileAccess.Read);
             StreamReader sReader = new StreamReader(_fileStream);
@@ -64,36 +64,115 @@ namespace BinHong.FlightViewerCore
             int count = 0;
             while ((str = sReader.ReadLine()) != null)
             {
-                count++;
-                list.Add(str);
+                bool isContainData = false;
+                bool isContainSdi = false;
+                bool isContainSsm = false;
+                if (string.IsNullOrEmpty(data))
+                {
+                    isContainData = str.Contains(data);
+                }
+                if (string.IsNullOrEmpty(sdi))
+                {
+                    isContainSdi = str.Contains(sdi);
+                }
+                if (string.IsNullOrEmpty(ssm))
+                {
+                    isContainSsm = str.Contains(ssm);
+                }
+                if (isContainData && isContainSdi && isContainSsm)
+                {
+                    count++;
+                    list.Add(str);
+                }
+                else if (isContainData && isContainSdi)
+                {
+                    count++;
+                    list.Add(str);
+                }
+                else if (isContainData && isContainSsm)
+                {
+                    count++;
+                    list.Add(str);
+                }
+                else if (isContainSdi && isContainSsm)
+                {
+                    count++;
+                    list.Add(str);
+                }
+                else if (isContainData)
+                {
+                    count++;
+                    list.Add(str);
+                }
+                else if (isContainSdi)
+                {
+                    count++;
+                    list.Add(str);
+                }
+                else if (isContainSsm)
+                {
+                    count++;
+                    list.Add(str);
+                }
             }
+            pageCount = count / 50;
             sReader.Close();
             _fileStream.Close();
-            int startLocation;
-            int endLocation;
-            if (position - 50 <= 0)
+            int startIndex = 0;
+            int endIndex = 0;
+            if (pageIndex - 1 <= 0)
             {
-                startLocation = 0;
+                startIndex = 0;
             }
             else
             {
-                startLocation = position - 50;
+                startIndex = pageIndex - 1;
             }
-            if (position + 50 >= count)
+            if (pageIndex + 1 > pageCount)
             {
-                endLocation = count;
+                endIndex = pageCount;
             }
             else
             {
-                endLocation = position + 50;
+                endIndex = pageIndex;
             }
-            for (int i = startLocation; i <= endLocation; i++)
+            for (int i = startIndex * 50; i < endIndex * 50; i++)
             {
-                if (list.Count > 0)
+                if (list.Count > 0 && !string.IsNullOrEmpty(list[i]))
                 {
                     returnList.Add(list[i]);
                 }
             }
+            #region 无用
+
+
+            //int startLocation;
+            //int endLocation;
+            //if (position - 50 <= 0)
+            //{
+            //    startLocation = 0;
+            //}
+            //else
+            //{
+            //    startLocation = position - 50;
+            //}
+            //if (position + 50 >= count)
+            //{
+            //    endLocation = count;
+            //}
+            //else
+            //{
+            //    endLocation = position + 50;
+            //}
+            //for (int i = startLocation; i <= endLocation; i++)
+            //{
+            //    if (list.Count > 0)
+            //    {
+            //        returnList.Add(list[i]);
+            //    }
+            //}
+
+            #endregion
             return returnList;
         }
         public IOwner Owner { get; private set; }

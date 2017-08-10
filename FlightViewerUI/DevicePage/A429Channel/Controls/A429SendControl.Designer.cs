@@ -201,7 +201,7 @@
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(59, 12);
             this.label5.TabIndex = 6;
-            this.label5.Text = "dev收到：";
+            this.label5.Text = "Dev收到：";
             // 
             // label6
             // 
@@ -219,7 +219,7 @@
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(77, 12);
             this.label7.TabIndex = 9;
-            this.label7.Text = "dev收到Err：";
+            this.label7.Text = "Dev收到Err：";
             this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // label8

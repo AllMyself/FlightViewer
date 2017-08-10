@@ -74,10 +74,10 @@
             this.tabPage1.Controls.Add(this.groupBox2);
             this.tabPage1.Controls.Add(this.groupBox_statistics);
             this.tabPage1.Controls.Add(this.groupBox_control);
-            this.tabPage1.Location = new System.Drawing.Point(4, 21);
+            this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(324, 323);
+            this.tabPage1.Size = new System.Drawing.Size(324, 322);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "控制";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -168,9 +168,9 @@
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(15, 90);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(113, 12);
+            this.label5.Size = new System.Drawing.Size(125, 12);
             this.label5.TabIndex = 2;
-            this.label5.Text = "Total device err：";
+            this.label5.Text = "Total Device   Err：";
             // 
             // label4
             // 
@@ -186,9 +186,9 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(15, 41);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(119, 12);
+            this.label2.Size = new System.Drawing.Size(125, 12);
             this.label2.TabIndex = 2;
-            this.label2.Text = "Total Error Count：";
+            this.label2.Text = "Total Error  Count：";
             // 
             // label3
             // 
@@ -213,9 +213,9 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(15, 19);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(119, 12);
+            this.label1.Size = new System.Drawing.Size(125, 12);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Total Label Count：";
+            this.label1.Text = "Total Label  Count：";
             // 
             // groupBox_control
             // 

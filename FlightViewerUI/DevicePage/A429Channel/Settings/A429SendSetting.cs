@@ -25,7 +25,7 @@ namespace BinHong.FlightViewerUI
             flgView.Cols["ChannelID"].Caption = "ChannelID";
             flgView.Cols["Enabled"].Caption = "是否使能";
             flgView.Cols["Parity"].Caption = "是否奇偶校验";
-            flgView.Cols["BaudRate"].Caption = "波特率(bit)";
+            flgView.Cols["BaudRate"].Caption = "波特率(bps)";
             flgView.Cols["LoopEnable"].Caption = "是否环回";
             flgView.Cols["BaudRate"].ComboList = "12500|50000|100000";
             flgView.Cols["BaudRate"].AllowEditing = true;

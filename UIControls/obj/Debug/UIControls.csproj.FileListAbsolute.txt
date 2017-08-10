@@ -34,3 +34,4 @@ C:\Users\BH-tech\Desktop\SVN\UIControls\obj\Debug\UiControls.Properties.Resource
 C:\Users\BH-tech\Desktop\SVN\UIControls\obj\Debug\UIControls.csproj.GenerateResource.Cache
 C:\Users\BH-tech\Desktop\SVN\UIControls\obj\Debug\UiControls.dll
 C:\Users\BH-tech\Desktop\SVN\UIControls\obj\Debug\UiControls.pdb
+C:\Users\BH-tech\Desktop\SVN\UIControls\obj\Debug\UIControls.csprojResolveAssemblyReference.cache

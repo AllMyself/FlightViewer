@@ -22,3 +22,4 @@ C:\Users\BH-tech\Desktop\SVN\bin\Debug\Utilities.dll
 C:\Users\BH-tech\Desktop\SVN\bin\Debug\Utilities.pdb
 C:\Users\BH-tech\Desktop\SVN\Utilities\obj\Debug\Utilities.dll
 C:\Users\BH-tech\Desktop\SVN\Utilities\obj\Debug\Utilities.pdb
+C:\Users\BH-tech\Desktop\SVN\Utilities\obj\Debug\Utilities.csprojResolveAssemblyReference.cache

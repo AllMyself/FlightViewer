@@ -89,7 +89,7 @@ namespace BinHong.FlightViewerUI
             TreeNode LabelNodes = SDINodes.Parent;//label
             TreeNode ChannelNodes = LabelNodes.Parent;//channel
             int channelId = Convert.ToInt32(ChannelNodes.Text.Split('_')[1]);
-            Channel429DriverRx channel429DriverRx = new Channel429DriverRx(_device429.DevID, (uint)channelId);
+            Channel429DriverRx channel429DriverRx = new Channel429DriverRx(_device429.DevID, (uint)(channelId - 1));
             string sdi = SDINodes.Text.Split('_')[1];
             channelFilterParamA429Rx.sdi = Convert.ToUInt16(sdi, 2);
             int label = Convert.ToInt32(LabelNodes.Text.Split('_')[1]);
@@ -113,7 +113,7 @@ namespace BinHong.FlightViewerUI
             for (int i = 0; i < _treeView.Nodes.Count; i++)
             {
                 TreeNode treeNode = (TreeNode)_treeView.Nodes[i];
-                Channel429DriverRx channel429DriverRx = new Channel429DriverRx(_device429.DevID, (uint)i);
+                Channel429DriverRx channel429DriverRx = new Channel429DriverRx(_device429.DevID, (uint)(i - 1));
                 foreach (var item in treeNode.Nodes)
                 {
                     int label;
@@ -254,7 +254,7 @@ namespace BinHong.FlightViewerUI
         }
         public void updateTree()
         {
-            for (int i = 0; i < 16; i++)
+            for (int i = 1; i <= 16; i++)
             {
                 string childNode = "chanel_" + i.ToString();
                 TreeNode treeNode = new TreeNode(childNode);

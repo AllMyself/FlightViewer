@@ -22,3 +22,4 @@ C:\Users\BH-tech\Desktop\SVN\CommonInterface\bin\Debug\CommonInterface.dll
 C:\Users\BH-tech\Desktop\SVN\CommonInterface\bin\Debug\CommonInterface.pdb
 C:\Users\BH-tech\Desktop\SVN\CommonInterface\obj\Debug\CommonInterface.dll
 C:\Users\BH-tech\Desktop\SVN\CommonInterface\obj\Debug\CommonInterface.pdb
+C:\Users\BH-tech\Desktop\SVN\CommonInterface\obj\Debug\CommonInterface.csprojResolveAssemblyReference.cache

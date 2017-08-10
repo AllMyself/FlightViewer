@@ -29,6 +29,10 @@ namespace BinHong.FlightViewerCore
                 Directory.CreateDirectory(deviceDir);
             }
             path = deviceDir + receive429.Name;
+            if (!File.Exists(path))
+            {
+                Directory.CreateDirectory(path);
+            }
             //_fileStream = new FileStream(deviceDir + receive429.Name, FileMode.Create, FileAccess.ReadWrite, FileShare.ReadWrite);
         }
         //存数据

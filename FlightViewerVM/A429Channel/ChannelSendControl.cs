@@ -22,6 +22,7 @@ namespace BinHong.FlightViewerVM
             Parity = label429.Parity;
             Name = label429.Name;
             isAutoIncrement = label429.isAutoIncrement;
+            cycleInterval = label429.cycleInterval;
         }
 
         public SendLabelUi(string name)
@@ -30,7 +31,7 @@ namespace BinHong.FlightViewerVM
         }
 
         public string Name { get; private set; }
-
+        public int cycleInterval { get; set; }//软件周期间隔
         /// <summary>
         /// 是否选中
         /// </summary>
@@ -276,7 +277,8 @@ namespace BinHong.FlightViewerVM
                         Parity = LabelList[index].Parity,
                         IsSelected = LabelList[index].IsSelected,
                         Interval = LabelList[index].Interval,
-                        isAutoIncrement = LabelList[index].isAutoIncrement
+                        isAutoIncrement = LabelList[index].isAutoIncrement,
+                        cycleInterval = LabelList[index].cycleInterval
                     };
 
                     _curSelectedChannel.Add(label);
@@ -292,8 +294,9 @@ namespace BinHong.FlightViewerVM
                     label.IsSelected = LabelList[index].IsSelected;
                     label.Interval = LabelList[index].Interval;
                     label.isAutoIncrement = LabelList[index].isAutoIncrement;
+                    label.cycleInterval = LabelList[index].cycleInterval;
                 }
-          
+
             }
         }
 

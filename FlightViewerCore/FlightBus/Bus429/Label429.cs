@@ -1,6 +1,6 @@
 ﻿namespace BinHong.FlightViewerCore
 {
-    public abstract class Label429 : AbstractLabel, ILabel429Info,IIsSelected
+    public abstract class Label429 : AbstractLabel, ILabel429Info, IIsSelected
     {
         public Label429(string name)
         {
@@ -36,7 +36,7 @@
 
         public int SDI
         {
-            get { return (byte) ((ActualValue >> 8) & 0x3); }
+            get { return (byte)((ActualValue >> 8) & 0x3); }
             set { ActualValue = ((ActualValue & (~(0x3 << 8))) | ((value & 0x3) << 8)); }
         }
 
@@ -63,7 +63,8 @@
 
     public class ReceiveLabel429 : Label429
     {
-        public ReceiveLabel429(string name) : base(name)
+        public ReceiveLabel429(string name)
+            : base(name)
         {
         }
 
@@ -75,7 +76,8 @@
 
     public class SendLabel429 : Label429
     {
-        public SendLabel429(string name) : base(name)
+        public SendLabel429(string name)
+            : base(name)
         {
         }
 
@@ -83,5 +85,6 @@
         /// 发送间隔
         /// </summary>
         public int Interval { get; set; }
+        public int cycleInterval { get; set; }
     }
 }

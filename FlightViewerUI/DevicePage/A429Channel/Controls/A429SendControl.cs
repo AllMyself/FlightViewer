@@ -42,7 +42,13 @@ namespace BinHong.FlightViewerUI
             button_clearData.Click += ClearData;
             button1.Click += SendPerid;
             button2.Click += FinishPerid;
+            cycleSend_btn.Click += CycleSend;
             textBox_sendValue.TextChanged += TextChange;
+        }
+        //周期发送
+        private void CycleSend(object sender, EventArgs e)
+        {
+            
         }
         private void TextChange(object sender, EventArgs e)
         {

@@ -52,6 +52,7 @@
             this.gpBox_DeviceLayer = new System.Windows.Forms.GroupBox();
             this.textBox_sendValue = new System.Windows.Forms.TextBox();
             this.isRadioBtn = new System.Windows.Forms.CheckBox();
+            this.cycleSend_btn = new System.Windows.Forms.Button();
             this.gpBox_LabelLayer.SuspendLayout();
             this.gpBox_ChannelLayer.SuspendLayout();
             this.gpBox_DeviceLayer.SuspendLayout();
@@ -69,7 +70,7 @@
             // btn_AllChannelStop
             // 
             this.btn_AllChannelStop.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.btn_AllChannelStop.Location = new System.Drawing.Point(6, 47);
+            this.btn_AllChannelStop.Location = new System.Drawing.Point(6, 76);
             this.btn_AllChannelStop.Name = "btn_AllChannelStop";
             this.btn_AllChannelStop.Size = new System.Drawing.Size(75, 23);
             this.btn_AllChannelStop.TabIndex = 1;
@@ -259,9 +260,10 @@
             // 
             this.gpBox_DeviceLayer.Controls.Add(this.btn_AllChannelStop);
             this.gpBox_DeviceLayer.Controls.Add(this.btn_AllChannelStart);
+            this.gpBox_DeviceLayer.Controls.Add(this.cycleSend_btn);
             this.gpBox_DeviceLayer.Location = new System.Drawing.Point(226, 86);
             this.gpBox_DeviceLayer.Name = "gpBox_DeviceLayer";
-            this.gpBox_DeviceLayer.Size = new System.Drawing.Size(96, 79);
+            this.gpBox_DeviceLayer.Size = new System.Drawing.Size(96, 107);
             this.gpBox_DeviceLayer.TabIndex = 2;
             this.gpBox_DeviceLayer.TabStop = false;
             this.gpBox_DeviceLayer.Text = "上层控制";
@@ -284,6 +286,16 @@
             this.isRadioBtn.TabIndex = 14;
             this.isRadioBtn.Text = "16进制显示";
             this.isRadioBtn.UseVisualStyleBackColor = true;
+            // 
+            // cycleSend_btn
+            // 
+            this.cycleSend_btn.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.cycleSend_btn.Location = new System.Drawing.Point(6, 47);
+            this.cycleSend_btn.Name = "cycleSend_btn";
+            this.cycleSend_btn.Size = new System.Drawing.Size(75, 23);
+            this.cycleSend_btn.TabIndex = 1;
+            this.cycleSend_btn.Text = "周期发送";
+            this.cycleSend_btn.UseVisualStyleBackColor = false;
             // 
             // A429SendControl
             // 
@@ -345,5 +357,6 @@
         private System.Windows.Forms.GroupBox gpBox_DeviceLayer;
         private System.Windows.Forms.TextBox textBox_sendValue;
         private System.Windows.Forms.CheckBox isRadioBtn;
+        private System.Windows.Forms.Button cycleSend_btn;
     }
 }

@@ -26,7 +26,8 @@ namespace BinHong.FlightViewerUI
             flgView.Cols["Name"].Visible = false;
 
             flgView.Cols["IsSelected"].Caption = "生效";
-            flgView.Cols["Interval"].Caption = "发送间隔";
+            flgView.Cols["Interval"].Caption = "周期间隔(驱)";
+            flgView.Cols["cycleInterval"].Caption = "周期间隔(软)";
             flgView.Cols["Label"].Caption = "标号";
             flgView.Cols["SDI"].Caption = "SDI";
             flgView.Cols["Data"].Caption = "数据";

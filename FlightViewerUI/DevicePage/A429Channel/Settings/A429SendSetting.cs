@@ -23,7 +23,7 @@ namespace BinHong.FlightViewerUI
 
             flgView.Cols["Name"].Caption = "名字";
             flgView.Cols["ChannelID"].Caption = "ChannelID";
-            flgView.Cols["Enabled"].Caption = "是否矢能";
+            flgView.Cols["Enabled"].Caption = "是否使能";
             flgView.Cols["Parity"].Caption = "是否奇偶校验";
             flgView.Cols["BaudRate"].Caption = "波特率(bit)";
             flgView.Cols["LoopEnable"].Caption = "是否环回";

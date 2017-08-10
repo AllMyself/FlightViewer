@@ -68,7 +68,6 @@
             // 
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
-            "anychanel",
             "chanel_1",
             "chanel_2",
             "chanel_3",

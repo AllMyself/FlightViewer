@@ -256,7 +256,7 @@ namespace BinHong.FlightViewerUI
         {
             for (int i = 1; i <= 16; i++)
             {
-                string childNode = "chanel_" + i.ToString();
+                string childNode = "channel_" + i.ToString();
                 TreeNode treeNode = new TreeNode(childNode);
                 treeNode.Checked = true;
                 _treeView.Nodes.Add(treeNode);

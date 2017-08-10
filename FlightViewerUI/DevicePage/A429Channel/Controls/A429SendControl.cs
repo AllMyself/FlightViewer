@@ -79,7 +79,7 @@ namespace BinHong.FlightViewerUI
                 chennel.errCount = 0;
                 chennel.DeviceCount = 0;
                 chennel.errDeviceCount = 0;
-                this.textBox_sendValue.Text = "";                                                                                                                                               
+                this.textBox_sendValue.Text = "";
                 Channel429DriverTx channel429DriverRx = new Channel429DriverTx(_device429.DevID, chennel.ChannelID);
                 uint ret = channel429DriverRx.ChannelMibClearTx();
                 if (ret != 0)
@@ -176,14 +176,14 @@ namespace BinHong.FlightViewerUI
                 Channe429Send sendCh = (Channe429Send)ch;
                 if (!sendCh.Enabled)
                 {
-                    continue;                                                                                             
+                    continue;
                 }
                 SimpleTreeNode chNode;
                 if (!node.Nodes.ContainsKey(sendCh.Name))
                 {
                     chNode = new SimpleTreeNode()
                     {
-                        Text = sendCh.Name,
+                        Text = "SendChannel" + (sendCh.ChannelID + 1).ToString(),//sendCh.Name,
                         Name = sendCh.Name,
                         Path = sendCh.Path
                     };
@@ -315,11 +315,11 @@ namespace BinHong.FlightViewerUI
                         {
                             if (isRadioBtn.Checked == false)
                             {
-                                this.textBox_sendValue.Text += DateTime.Now.ToString() + ":\r\n" + chennel.ChannelID.ToString() + "\r\n" + chennel.currentLabel.ActualValue.ToString("x2") + "\r\n";
+                                this.textBox_sendValue.Text += DateTime.Now.ToString() + ":\r\n" + "通道ID：" + (chennel.ChannelID + 1).ToString() + "\r\n" + chennel.currentLabel.ActualValue.ToString("x2") + "\r\n";
                             }
                             else
                             {
-                                this.textBox_sendValue.Text += DateTime.Now.ToString() + ":\r\n" + chennel.ChannelID.ToString() + "\r\n" + chennel.currentLabel.ActualValue.ToString("x8") + "\r\n";
+                                this.textBox_sendValue.Text += DateTime.Now.ToString() + ":\r\n" + "通道ID：" + (chennel.ChannelID + 1).ToString() + "\r\n" + chennel.currentLabel.ActualValue.ToString("x8") + "\r\n";
                             }
                         }
                     }

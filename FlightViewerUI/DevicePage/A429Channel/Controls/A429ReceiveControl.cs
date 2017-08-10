@@ -463,7 +463,7 @@ namespace BinHong.FlightViewerUI
                 {
                     chNode = new SimpleTreeNode()
                     {
-                        Text = receiveCh.Name,
+                        Text = "ReceiveChannel" + (i + 1).ToString(),//receiveCh.Name,
                         Name = receiveCh.Name,
                         Path = receiveCh.Path
                     };
@@ -631,7 +631,7 @@ namespace BinHong.FlightViewerUI
                             {
                                 chennel.Add(receiveLabel);
                             }
-                            result += DateTime.Now.ToString() + "\r\n" + "label:\n";
+                            result += DateTime.Now.ToString() + "\r\n" + "通道ID：" + (chennel.ChannelID + 1).ToString() + "label:\n";
                             if (checkBox1.Checked == false)
                             {
                                 result += data.ToString("x2");

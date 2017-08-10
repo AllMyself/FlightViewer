@@ -37,7 +37,7 @@ namespace BinHong.FlightViewerUI
             foreach (var item in _device429.SendComponents)
             {
                 Channe429Send chaneSend = (Channe429Send)item;
-                string nodeName = "chanel_" + chaneSend.ChannelID.ToString();
+                string nodeName = "chanel_" + (chaneSend.ChannelID + 1).ToString();
                 TreeNode node = new TreeNode(nodeName);
                 node.Checked = true;
                 _treeView2.Nodes.Add(node);

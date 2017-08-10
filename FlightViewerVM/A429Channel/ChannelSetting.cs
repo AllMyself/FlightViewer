@@ -303,37 +303,37 @@ namespace BinHong.FlightViewerVM
         }
         private void SetGatherParam(Channe429Receive channelInfoUi)
         {
-                ChannelGatherParamA429Rx gatherParamA429 = new ChannelGatherParamA429Rx();
-                if (channelInfoUi.isFilter == true)//过滤
-                {
-                    gatherParamA429.gather_enable = 0;
-                }
-                else//不过滤
-                {
-                    gatherParamA429.gather_enable = 1;
-                }
-                if (channelInfoUi.receiveType == "队列")
-                {
-                    gatherParamA429.recv_mode = RecvModeA429.BHT_L1_A429_RECV_MODE_LIST;
-                }
-                else
-                {
-                    gatherParamA429.recv_mode = RecvModeA429.BHT_L1_A429_RECV_MODE_SAMPLE;
-                }
-                if (!string.IsNullOrEmpty(channelInfoUi.deepCount))
-                {
-                    gatherParamA429.threshold_count = (ushort)Convert.ToInt32(channelInfoUi.deepCount);
-                }
-                if (!string.IsNullOrEmpty(channelInfoUi.timeCount))
-                {
-                    gatherParamA429.threshold_time = (ushort)Convert.ToInt32(channelInfoUi.timeCount);
-                }
-                uint ret = ((Channel429DriverRx)(channelInfoUi.ChannelDriver)).ChannelGatherParam(ref gatherParamA429,
-                    ParamOptionA429.BHT_L1_PARAM_OPT_SET);
-                if (ret != 0)
-                {
-                    RunningLog.Record(string.Format("return value is {0} when invoke ChannelGatherParam", ret));
-                }
+            ChannelGatherParamA429Rx gatherParamA429 = new ChannelGatherParamA429Rx();
+            if (channelInfoUi.isFilter == true)//过滤
+            {
+                gatherParamA429.gather_enable = 0;
+            }
+            else//不过滤
+            {
+                gatherParamA429.gather_enable = 1;
+            }
+            if (channelInfoUi.receiveType == "队列")
+            {
+                gatherParamA429.recv_mode = RecvModeA429.BHT_L1_A429_RECV_MODE_LIST;
+            }
+            else
+            {
+                gatherParamA429.recv_mode = RecvModeA429.BHT_L1_A429_RECV_MODE_SAMPLE;
+            }
+            if (!string.IsNullOrEmpty(channelInfoUi.deepCount))
+            {
+                gatherParamA429.threshold_count = (ushort)Convert.ToInt32(channelInfoUi.deepCount);
+            }
+            if (!string.IsNullOrEmpty(channelInfoUi.timeCount))
+            {
+                gatherParamA429.threshold_time = (ushort)Convert.ToInt32(channelInfoUi.timeCount);
+            }
+            uint ret = ((Channel429DriverRx)(channelInfoUi.ChannelDriver)).ChannelGatherParam(ref gatherParamA429,
+                ParamOptionA429.BHT_L1_PARAM_OPT_SET);
+            if (ret != 0)
+            {
+                RunningLog.Record(string.Format("return value is {0} when invoke ChannelGatherParam", ret));
+            }
         }
         public void Initialize(Device429 device429)//初始化通道
         {
@@ -341,7 +341,7 @@ namespace BinHong.FlightViewerVM
             {
                 Channe429Receive ch = (Channe429Receive)device429.GetSpecificItem(i);//遍历dic，获取信息
                 var channel = new ChannelInfoUiReceive();
-                channel.Name = ch.Name;
+                channel.Name = "ReceiveChannel" + (ch.ChannelID + 1).ToString();
                 channel.ChannelID = ch.ChannelID;
                 if (ch.Parity == 1)
                 {
@@ -453,7 +453,7 @@ namespace BinHong.FlightViewerVM
             {
                 Channe429Send ch = (Channe429Send)device429.GetSpecificItem(i + 16);
                 var channel = new ChannelInfoUiSend();
-                channel.Name = ch.Name;
+                channel.Name = "SendChannel" + (ch.ChannelID + 1).ToString();
                 channel.ChannelID = ch.ChannelID;
                 if (ch.Parity == 1)
                 {
